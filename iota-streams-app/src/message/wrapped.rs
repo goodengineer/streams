@@ -18,7 +18,7 @@ pub struct WrapState<F, Link> {
 }
 
 impl<F: PRP, Link: HasLink> WrapState<F, Link> {
-    /// Save link for the current wrapped message and accociated info into the store.
+    /// Save link for the current wrapped message and associated info into the store.
     pub fn commit<Store>(
         mut self,
         mut store: RefMut<Store>,
@@ -51,7 +51,7 @@ pub struct WrappedMessage<F, Link: HasLink> {
 
 // impl<F: PRP, Link: HasLink> WrappedMessage<F, Link>
 // {
-// Save link for the current wrapped message and accociated info into the store.
+// Save link for the current wrapped message and associated info into the store.
 // pub fn commit<Store>(
 // mut self,
 // mut store: RefMut<Store>,
